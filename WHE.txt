@@ -1,0 +1,156 @@
+git config --global user.name
+GOTO THE GIT PACHE
+.............................................................
+...................................................
+
+PC@DESKTOP-083Q3R6 MINGW64 ~
+$ cd C:
+
+PC@DESKTOP-083Q3R6 MINGW64 /c
+$ mkdir cloud-class
+
+PC@DESKTOP-083Q3R6 MINGW64 /c
+$ cd cloud-class
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class
+$ ls
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class
+$ git init
+Initialized empty Git repository in C:/cloud-class/.git/
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class (master)
+$ ls -a
+./  ../  .git/
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class (master)
+$ git config --global user.name ^[[200~
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class (master)
+$ git config --global user.name Mosesmatet
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class (master)
+$ git config --global user.email mosesmakurmatetguem@gmail.com
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class (master)
+$ git config --list
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class (master)
+$ git clone https://github.com/Mosesmatet/cloud-class.git
+
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class (master)
+$ ls
+cloud-class/
+
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class (master)
+$ cd cloud-class
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ touch file.txt
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ ls
+file.txt
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git status
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git add .
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git status
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file.txt
+
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git commit -n "adding my file"
+error: pathspec 'adding my file' did not match any file(s) known to git
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git commit -m "adding my file"
+[main (root-commit) a35bc29] adding my file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file.txt
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git branch
+* main
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git branch -M main
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git remote add origin https://github.com/Mosesmatet/cloud-class.git
+error: remote origin already exists.
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git remote -v
+origin  https://github.com/Mosesmatet/cloud-class.git (fetch)
+origin  https://github.com/Mosesmatet/cloud-class.git (push)
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git push -u origin main
+ and go to the github
+opening go setting  go to collabrtnal
+**************
+open visual code
+.................
+
+opne folder cloud class
+creating file in .html
+
+continue on gitpache
+*********************************8
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git add .
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git commit -m "adding my file"
+[main 6dd1872] adding my file
+ 1 file changed, 11 insertions(+)
+ create mode 100644 asignment 1.html
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 484 bytes | 484.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mosesmatet/cloud-class.git
+   a35bc29..6dd1872  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+PC@DESKTOP-083Q3R6 MINGW64 /c/cloud-class/cloud-class (main)
+$
+this link to see the code toput on git bache (you have to copy past)
+************************************************
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu 
